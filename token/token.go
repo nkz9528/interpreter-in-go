@@ -4,7 +4,7 @@ type TokenType string
 
 type Token struct {
 	Type    TokenType
-	literal string
+	Literal string
 }
 
 const (
@@ -21,7 +21,7 @@ const (
 	SEMICOLON = ";"
 
 	LPAREN = "("
-	RPALEN = ")"
+	RPAREN = ")"
 	LBRACE = "{"
 	RBRACE = "}"
 
